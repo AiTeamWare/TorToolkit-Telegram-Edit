@@ -58,13 +58,13 @@
         "required": false
       },
       "FORCE_DOCUMENTS": {
-        "description": "FORCE_DOCUMENTS",
-        "value": "True",
+        "description": "FORCE_DOCUMENTS 'True'.",
+        "value": "",
         "required": false
       },
       "GD_INDEX_URL": {
-        "description": "Refer to https://github.com/maple3142/GDIndex/ The URL should not have any trailing '/'.",
-        "value": "False",
+        "description": "Refer to https://github.com/maple3142/GDIndex/ The URL should not have any trailing '/', 'False'.",
+        "value": "",
         "required": false
       },
       "API_ID": {
@@ -78,13 +78,13 @@
         "required": true
       },
       "IS_VPS": {
-        "description": "IS_VPS",
-        "value": "False",
-        "required": false
+        "description": "IS_VPS 'False'.",
+        "value": "",
+        "required": true
       },
       "LEECH_ENABLED": {
-        "description": "To enabled leech.",
-        "value": "True",
+        "description": "To enabled leech 'True'.",
+        "value": "",
         "required": false
       },
       "MAX_TORRENT_SIZE": {
@@ -98,8 +98,8 @@
         "required": false
       },
       "RCLONE_ENABLED": {
-        "description": "RCLONE_ENABLED",
-        "value": "False",
+        "description": "RCLONE_ENABLED 'False'.",
+        "value": "",
         "required": false
       }
     },
