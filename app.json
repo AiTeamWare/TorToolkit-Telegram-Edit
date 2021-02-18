@@ -1,0 +1,117 @@
+{
+    "name": "TorToolkit-Telegram",
+    "description": "Telegram-Direct-Mirror to G-Drive",
+    "logo": "https://telegra.ph/file/b0526eab13658ff5e2123.jpg",
+    "keywords": [
+      "telegram",
+      "bot",
+      "aria",
+      "python"
+    ],
+    "repository": "https://github.com/AiTeamWare/TorToolkit-Telegram",
+    "website": "https://t.me/AiTorrent_Ware",
+    "success_url": "https://t.me/AiTorrent_Ware",
+    "stack": "container",
+    "env": {
+      "ENV": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+      "BOT_TOKEN": {
+        "description": "The telegram bot token that you get from @BotFather.",
+        "value": "1670068672:AAGsd9F_av8ZGEbMqi_65PrC76DFk8dp5ZA",
+        "required": true
+      },
+      "ALD_USR": {
+        "description": "The telegram bot which works on this groups/owners",
+        "value": "[-1001491078689, -1001186041542, -1001437782818, 1004538768, 1054316613, 1152240399, 960156861, 761781845]",
+        "required": true
+      },
+      "BASE_URL_OF_BOT": {
+        "description": "BASE_URL_OF_BOT",
+        "value": "https://ai-tortoolkit.herokuapp.com",
+        "required": true
+      },
+      "RCLONE_BASE_DIR": {
+        "description": "The path to the local folder where the downloads should be downloaded to.",
+        "value": "/",
+        "required": false
+      },
+      "COMPLETED_STR": {
+        "description": "COMPLETED_STR",
+        "value": "▰",
+        "required":false
+      },
+      "REMAINING_STR": {
+        "description": "REMAINING_STR",
+        "value": "▱",
+        "required": true
+      },
+      "DEF_RCLONE_DRIVE": {
+        "description": "DEF_RCLONE_DRIVE",
+        "value": "",
+        "required": false
+      },
+      "EDIT_SLEEP_SECS": {
+        "description": "EDIT_SLEEP_SECS",
+        "value": "40",
+        "required": false
+      },
+      "FORCE_DOCUMENTS": {
+        "description": "FORCE_DOCUMENTS",
+        "value": "True",
+        "required": false
+      },
+      "GD_INDEX_URL": {
+        "description": "Refer to https://github.com/maple3142/GDIndex/ The URL should not have any trailing '/'.",
+        "value": "False",
+        "required": false
+      },
+      "API_ID": {
+        "description": "This is to authenticate to your telegram account for downloading Telegram files. You can get this from https://my.telegram.org DO NOT put this in quotes.",
+        "value": "1667813",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "This is to authenticate to your telegram account for downloading Telegram files. You can get this from https://my.telegram.org.",
+        "value": "1f6921c27bf6cd01aba471a14ff33bcb",
+        "required": true
+      },
+      "IS_VPS": {
+        "description": "IS_VPS",
+        "value": "False",
+        "required": false
+      },
+      "LEECH_ENABLED": {
+        "description": "To enabled leech.",
+        "value": "True",
+        "required": false
+      },
+      "MAX_TORRENT_SIZE": {
+        "description": "MAX_TORRENT_SIZE",
+        "value": "2",
+        "required": false
+      },
+      "MAX_YTPLAYLIST_SIZE": {
+        "description": "MAX_YTPLAYLIST_SIZE",
+        "value": "20",
+        "required": false
+      },
+      "RCLONE_ENABLED": {
+        "description": "RCLONE_ENABLED",
+        "value": "False",
+        "required": false
+      }
+    },
+      "TG_UP_LIMIT": {
+        "description": "TG_UP_LIMIT",
+        "value": "2147483640",
+        "required": false
+      }
+    },
+    "addons": [
+      {
+        "plan": "heroku-postgresql"
+      }
+    ]
+}
